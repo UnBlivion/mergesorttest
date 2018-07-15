@@ -169,7 +169,7 @@ h6{
 }
 
 footer{
-    background-color: rgb(22, 22, 22);
+    
     margin: 0;
 }
 
@@ -191,4 +191,60 @@ footer div p{
     text-align: center;
     display: flex;
     margin: 0;
+    background-color: rgb(14, 14, 14);
+}
+
+.icon{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    background-color: #172227;
+}
+
+.social{
+    height: 4vw;
+    width: 4vw;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #2c3b42;
+}
+
+.social:hover{
+    background-color: rgba(0, 174, 255, 0.432);
+}
+
+.cell{
+    justify-content: space-around;
+    width: 35%;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    background-color: #2c3b42;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.cell img{
+    height: 4vw;
+    width: 4vw;
+}
+
+span{
+    font-size: 27pt;
+}
+
+h5{
+    font-size: 15pt;
+    color: rgba(255, 255, 255, 0.781);
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(250, 235, 215, 0.089);
+}
+
+.googleit{
+    text-decoration: none;
 }
