@@ -34,12 +34,12 @@ h2{
 }
 
 header{
-    height: 60vh;
+    height: 70vh;
     background-image: url(https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fhdwallsource.com%2Fimg%2F2014%2F9%2Fblur-background-26350-27041-hd-wallpapers.jpg&u=https://hdwallsource.com/img/2014/9/blur-background-26350-27041-hd-wallpapers.jpg);
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
 }
@@ -61,9 +61,17 @@ h3{
     flex-direction: column;
 }
 
+.barneyy{
+    margin: 5vh;
+    font-size: 25pt;
+}
+
 .barney{
     margin: 5vh;
-    font-size: 20pt;
+    font-size: 20pt; 
+    display: flex;
+    text-align: center;
+    width: 65%;   
 }
 
 .eoq{
@@ -93,6 +101,20 @@ h3{
     font-size: 15pt;
 }
 
+.etapas{
+    justify-content: center;
+    display: flex;
+    background-image: url(https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fhdwallsource.com%2Fimg%2F2014%2F9%2Fblur-background-26350-27041-hd-wallpapers.jpg&u=https://hdwallsource.com/img/2014/9/blur-background-26350-27041-hd-wallpapers.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.etapas h1{
+    font-size: 25pt;
+    margin: 2vh 0 1vh 0;
+    color: black;
+}
+
 section{
     justify-content: space-evenly;
     align-items: center;
@@ -101,13 +123,13 @@ section{
     background-image: url(https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fhdwallsource.com%2Fimg%2F2014%2F9%2Fblur-background-26350-27041-hd-wallpapers.jpg&u=https://hdwallsource.com/img/2014/9/blur-background-26350-27041-hd-wallpapers.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 95vh;;
+    height: 90vh;;
     margin: 0;
 }
 
 .passos{
     color: black;
-    font-size: 25pt;
+    font-size: 35pt;
     margin: 0;
     padding: 10px;
     background-color: rgba(245, 245, 245, 0.521);
@@ -120,13 +142,11 @@ section{
     border-radius: 25px;
     background-color: rgba(127, 172, 255, 0.5);
     width: 25%;
-    height: 85%;
+    height: 80%;
 }
 
 h4{
-    margin: 1vh;
-    font-size: 25pt;
-    font-style: italic;
+    
 }
 
 .passo{
@@ -146,4 +166,29 @@ h6{
     display: flex;
     margin: 2vh;
     font-size: 14pt;
+}
+
+footer{
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+}
+
+.contato{
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+}
+
+footer div p{
+    color: white;
+    font-size: 35pt;
+    margin: 0;
+    padding: 10px;
+}
+
+.clique{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 0;
 }
