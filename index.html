@@ -10,15 +10,21 @@
 </head>
 
 <body>
-    <div class="title">
+    <div id="title" class="title">
         <h1>MERGE SORT</h1>
     </div>
     <nav>
-        <h2>HOME</h2>
-        <h2>INTRO</h2>
-        <h2>SEILA</h2>
-        <h2>CONTEUDO</h2>
-        <h2>CONTATO</h2>
+        <a class="nave" href="#title">
+            <h2>HOME</h2>
+        </a>
+        <a class="nave" href="#intro">
+            <h2>INTRODUÇÃO</h2>
+        </a>
+        <a class="nave" href="#etapas"><h2>ETAPAS</h2></a> 
+        <a class="nave" href="#caracteristica"><h2>CARACTERISTICAS</h2></a> 
+        <a class="nave" href="#contato">
+            <h2>CONTATO</h2>
+        </a>
     </nav>
     <header>
         <div class="Globo">
@@ -30,58 +36,109 @@
             <img class="eoq" src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fquestion_mark%2Fquestion_mark_PNG134.png&f=1"
                 alt="">
         </div>
-
     </header>
-    <div class="intro">
+    <div id="intro" class="intro">
         <h2 class="introduction">- INTRODUÇÃO -</h2>
-        <p class="introducao">Basicamente, o <b>MERGE SORT</b> é um algoritmo de Classificação, do tipo "Separar Para Conquistar", e ele trabalha comparando
+        <p class="introducao">Basicamente, o
+            <b>MERGE SORT</b> é um algoritmo de Classificação, do tipo "Separar Para Conquistar", e ele trabalha comparando
             os valores de uma lista e assim ir classificando e reposicionando, até que a lista fique ordenada. Ele consegue
             ordernar uma lista com 3 Etapas, e estas Etapas são o DIVIDIR, CONQUISTAR e COMBINAR.</p>
     </div>
-    <div class="etapas">
-        <h1>RESUMÃO DAS ETAPAS:</h1>
+    <div id="etapas" class="etapas">
+        <h2>RESUMÃO DAS ETAPAS:</h2>
     </div>
     <section>
         <div class="p1">
             <h4 class="passos">Dividir</h4>
-            <p class="p2">Se a lista tiver mais que 1 elemento, ele Divide a Lista pela Metade, assim formando sub-listas, até que sobre apenas um unico elemento.</p>
-            <img class="passo" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FJadMjOLosCNJ6%2Fgiphy.gif&f=1" alt="">
+            <p class="p2">Se a lista tiver mais que 1 elemento, ele Divide a Lista pela Metade, assim formando sub-listas, até que sobre
+                apenas um unico elemento.</p>
+            <img class="passo" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FJadMjOLosCNJ6%2Fgiphy.gif&f=1"
+                alt="">
             <h6>Obs:Imagens meramente ilustrativas</h6>
         </div>
         <div class="p1">
             <h4 class="passos">Conquistar</h4>
-            <p class="p2">A conquista seleciona 2 listas e compara cada elemento, separando e organizando os elementos, colocando-os em uma nova lista ordenada.</p>
-            <img class="passo" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl0JMrPWRQkTeg3jjO%2Fgiphy.gif&f=1" alt="">
+            <p class="p2">A conquista seleciona 2 listas e compara cada elemento, separando e organizando os elementos, colocando-os em
+                uma nova lista ordenada.</p>
+            <img class="passo" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl0JMrPWRQkTeg3jjO%2Fgiphy.gif&f=1"
+                alt="">
             <h6>Obs:Imagens meramente ilustrativas</h6>
         </div>
         <div class="p1">
             <h4 class="passos">Combinar</h4>
-            <p class="p2">A combinação e a Conquista se complementam, basicamente, a sua função é de juntar e mover as listas já ordenadas pela conquista.</p>
+            <p class="p2">A combinação e a Conquista se complementam, basicamente, a sua função é de juntar e mover as listas já ordenadas
+                pela conquista.</p>
             <img class="passo" src="https://media.giphy.com/media/l2Je6sbvJEn1W9OWQ/giphy.gif" alt="">
             <h6>Obs:Imagens meramente ilustrativas</h6>
         </div>
     </section>
+    <div id="caracteristica" class="caracteristica">
+        <p>- CARACTERISTICAS -</p>
+    </div>
     <aside>
-
+        <div class="asideside">
+            <div class="exemplovisual">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" alt="">
+                <p>Exemplo Visual MergeSort</p>
+            </div>
+            <div class="frases">
+                <p>O Merge Sort como já visto anteriormente, é um algoritmo de classificação, mas o que o faz ele se destacar
+                    dos outros algoritmos, é que ele é rápido e eficiente, podendo ser aplicado em diversas áres para varios
+                    objetivos diferentes, uma coisa que o faz se destacar tambêm, é a sua curva de crescimento "temporal",
+                    ele demora relativamente mais para crescer comparando com os outros, ou seja, ele precisa de um numero
+                    mais elevado de elementos para fazer com que seu tempo de duração demore mais. </p>
+            </div>
+        </div>
+        <div class="asidemiddle">
+            <p>PROSxCONS</p>
+        </div>
+        <div class="vantagem">
+            <div class="pros">
+                <p>PROS</p>
+                <h1>👍</h1>
+                <ul>
+                    <li>Velocidade Constante</li>
+                    <li>Eficiente</li>
+                    <li>É Rapido</li>
+                    <li>Bom a longo prazo</li>
+                    <li>Ideia Simples</li>
+                    <li>Seu Pior Caso Não É Tão Ruim</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <p>CONS</p>
+                <h1>👎</h1>
+                <ul>
+                    <li>Dificil Total Compreensão</li>
+                    <li>Usa Bastante Memória</li>
+                    <li>Codigo Complicado</li>
+                    <li>Seu Melhor Caso Não É Tão Bom</li>
+                    <li>Não Da Pra Fazer Piadinha Com Seu Nome</li>
+                </ul>
+            </div>
+        </div>
     </aside>
     <footer>
-        <div class="contato">
-            <p>- CONTATOS -</p>
+        <div id="contato" class="contato">
+            <p>- CONTATO -</p>
         </div>
         <div class="icon">
             <div class="cell">
                 <img class="fdp" src="https://image.flaticon.com/icons/svg/785/785868.svg" alt="">
                 <span>TELEFONE: 4002-8922</span>
-            </div>            
+            </div>
             <img class="social" src="https://image.flaticon.com/icons/svg/54/54065.svg" alt="">
             <img class="social" src="https://image.flaticon.com/icons/svg/54/54107.svg" alt="">
             <img class="social" src="https://image.flaticon.com/icons/svg/54/54127.svg" alt="">
             <img class="social" src="https://image.flaticon.com/icons/svg/54/54053.svg" alt="">
         </div>
         <div class="clique">
-            <a class="googleit" href="http://lmgtfy.com/?q=Merge+Sort"><h5>PARA MAIS INFORMAÇÕES CLIQUE AQUI !!</h5></a>
+            <a class="googleit" href="http://lmgtfy.com/?q=Merge+Sort">
+                <h5>PARA MAIS INFORMAÇÕES CLIQUE AQUI !!</h5>
+            </a>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
